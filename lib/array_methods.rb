@@ -1,5 +1,7 @@
 def using_include(array, element)
-
+array.include? do |value|
+element == value
+end
 end
 
 def using_sort(array)
