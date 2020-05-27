@@ -6,7 +6,7 @@ end
 
 def using_sort(array)
 @array = array
-@new_array = @array.sort(@element)
+@array.sort(@element)
 end
 
 def using_reverse(array)
