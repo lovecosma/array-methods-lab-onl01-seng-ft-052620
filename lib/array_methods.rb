@@ -16,7 +16,7 @@ end
 
 def using_first(array)
   @array = array
-  return @array[0]
+  @array.first
 end
 
 def using_last(array)
