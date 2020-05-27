@@ -1,8 +1,7 @@
 def using_include(array, element)
 @array = array
 @element = element
-@array.include? do |value|
-@element == value
+@array.include?(@element)
 end
 end
 
