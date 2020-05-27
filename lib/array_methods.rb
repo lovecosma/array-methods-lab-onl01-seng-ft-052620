@@ -3,7 +3,6 @@ def using_include(array, element)
 @element = element
 @array.include?(@element)
 end
-end
 
 def using_sort(array)
 
